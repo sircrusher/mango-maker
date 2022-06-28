@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangoMaker", "MangoMaker\MangoMaker.csproj", "{E6FC50FC-276E-4238-9713-A2657C7E88E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6FC50FC-276E-4238-9713-A2657C7E88E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FC50FC-276E-4238-9713-A2657C7E88E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FC50FC-276E-4238-9713-A2657C7E88E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FC50FC-276E-4238-9713-A2657C7E88E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A17B156B-D05D-4B67-8DBF-42233D29EA8C}
+	EndGlobalSection
+EndGlobal
