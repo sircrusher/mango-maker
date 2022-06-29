@@ -5,7 +5,7 @@ A **work in progress** backstop trading bot built for Mango Markets. Trading on 
 - Built using Solnet.Mango - https://github.com/bmresearch/Solnet.Mango/
 - Trades Mango Perps, hedges on Mango Spot (Serum).
 - Connects directly to the Solana blockchain by interfacing with RPC nodes.
-- gRPC WebSocket connection for Serum spot prices.
+- RPC WebSocket connection for Serum spot prices.
 - Mango fills feed WebSocket for Mango perps.
 - Basic web server for viewing status and log.
 
@@ -33,8 +33,8 @@ Parameters set manually in the appsettings.json file:
 "MangoAccountPublicKey": The publick key of your Mango Markets trading account, found on the accounts page - https://trade.mango.markets/account
 "PerpMarketPublicKey": The public key of the Mango Markets perp market you want to trade.
 "PerpMarketOracle": The public key of the oracle used to track the market price of the Mango Markets perp contract you are trading.
-"Symbol": The ticker/symbol/contract name of the Mango Markets perp contract you want to trade. E.g. "SOL-PERP".
-"SerumSymbol": The ticker/symbol name of the Mango Markets spot (Serum) contract you want to trade. E.g. "SOL/USDC".
+"Symbol": The ticker/symbol/contract name of the Mango Markets perp contract you want to trade. e.g. "SOL-PERP".
+"SerumSymbol": The ticker/symbol name of the Mango Markets spot (Serum) contract you want to trade. e.g. "SOL/USDC".
 "OrderSize": The quantity to trade as seen on the UI. E.g. 43.10
 "MaximumPositionSize": The maximum position size you will allow for 1 direction (Long or Short) the bot will only quote to decrease your position size after your position reaches this size.
 "SerumMarketAddress": The public key of the Serum market you want to hedge on.
