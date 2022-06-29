@@ -35,10 +35,10 @@ Parameters set manually in the appsettings.json file:
 "PerpMarketOracle": The public key of the oracle used to track the market price of the Mango Markets perp contract you are trading.
 "Symbol": The ticker/symbol/contract name of the Mango Markets perp contract you want to trade. e.g. "SOL-PERP".
 "SerumSymbol": The ticker/symbol name of the Mango Markets spot (Serum) contract you want to trade. e.g. "SOL/USDC".
-"OrderSize": The quantity to trade as seen on the UI. E.g. 43.10
+"OrderSize": The quantity to trade as seen on the UI. e.g. 43.10
 "MaximumPositionSize": The maximum position size you will allow for 1 direction (Long or Short) the bot will only quote to decrease your position size after your position reaches this size.
 "SerumMarketAddress": The public key of the Serum market you want to hedge on.
-"SpreadBps": The spread in Bps from the mid price you want to quote at on both sides.
+"SpreadBps": The spread in basis points from the mid price that you want to quote at on both sides of the book.
 "MangoPriceDecimalPlaces": The price decimal places on the Mango UI of the perp contract you want to trade.
 "SerumQuantityDecimalPlaces": The quantity decimal places on the Mango UI of the Serum market you want to hedge on.
 "SerumPriceDecimalPlaces": The price decimal places on the Mango UI of the Serum market you want to hedge on.
@@ -54,3 +54,4 @@ Parameters set manually in the appsettings.json file:
 - [ ] Determine first Mango account from wallet address.
 - [ ] Subscribe to Serum events queue instead of retrieving.
 - [ ] Migrate to Solnet.Mango's implementation of the perp custom fill feed.
+- [ ] Use new Solnet.Serum.MarketUtils for converting between raw and UI price and quantity.
